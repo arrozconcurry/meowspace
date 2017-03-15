@@ -1,0 +1,17 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin: 0;
+  border-color: yellow;
+  border-style: dashed;
+  /*display: block;*/
+}
+
+section:first-child {
+  padding-top: 120px;
+  text-align: center;
+  background-color: green;
+  border-style: solid;
+}
