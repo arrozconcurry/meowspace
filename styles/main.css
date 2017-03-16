@@ -1,17 +1,56 @@
 header {
   position: fixed;
+  height: 100px;
+  top: 0;
   width: 100%;
   background-color: black;
   color: white;
   margin: 0;
   border-color: yellow;
   border-style: dashed;
+  z-index: 100;
   /*display: block;*/
 }
 
 section:first-child {
-  padding-top: 120px;
+  /*padding-top: 500px;*/
+  margin-top: 100px;
+  vertical-align: middle;
   text-align: center;
-  background-color: green;
+  background-color: white;
   border-style: solid;
+  background-image: url(../assets/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section h2 {
+  text-align: center;
+}
+
+article {
+  border-radius: 5%;
+  border-style: solid;
+}
+
+
+section:nth-child(3) {
+  border-style: solid;
+}
+
+section:nth-child(3) h2 {
+  float: left;
+}
+
+section:nth-child(3) p {
+  float: left;
+}
+
+section:nth-child(3) img {
+  float: right;
+}
+
+section:last-child {
+  clear: both;
 }
