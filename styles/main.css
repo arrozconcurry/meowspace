@@ -63,8 +63,13 @@ section h2 {
 }
 
 article {
-  border-radius: 5%;
+  border-radius: 10px;
   border-style: solid;
+}
+
+article h3 {
+  text-align: center;
+  border-bottom: solid;
 }
 
 a[href^="#post"]  {
@@ -72,7 +77,7 @@ a[href^="#post"]  {
   text-decoration: none;
   border-style: solid;
   border-radius: 25px;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 20px 5px 20px;
   color: #000000;
   /*font: bold 11px Arial;
   text-decoration: none;
