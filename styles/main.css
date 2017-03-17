@@ -8,22 +8,24 @@ h3 {
 header {
   position: fixed;
   height: 100px;
+  line-height: 100px;
   top: 0;
   width: 100%;
   margin: 0;
   padding: 0;
   z-index: 100;
 
-  color: white;
-  background-color: black;
-  border-color: yellow;
-  border-style: dashed;
+  /*text-decoration: none;*/
+  /*color: white;*/
+  background-color: #454851;
 }
 
 header h2 {
-  padding: 0;
+  padding-left: 10%;
+  padding-right: 45%;
   margin: 0;
   float: left;
+  text-decoration: none;
 }
 
 header ul {
@@ -39,34 +41,24 @@ header li {
   padding: 0;
 }
 
+header li a {
+  padding-left: 50%;
+}
+
 main {
   margin-top: 100px;
 }
 
 section:first-child {
-  /*margin-top: 100px;*/
-  /*vertical-align: middle;*/
-  /*display: table;*/
   text-align: center;
-  line-height: 250px;
+  line-height: 300px;
   height: 300px;
-  background-color: white;
-  border-style: solid;
+  font-size: xx-large;
   background-image: url(../assets/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
-/*section:first-child  h1 {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}*/
-
-/*main {
-  padding: 20%;
-}*/
 
 section h2 {
   text-align: center;
@@ -113,7 +105,6 @@ a[href^="#post"]  {
 }
 
 section:nth-child(3) {
-  /*padding: 40px;*/
   border-style: solid;
 }
 
@@ -134,8 +125,10 @@ section:nth-child(3) img {
 section:last-child {
   clear: both;
   background-image: url(../assets/everybody.jpg);
-  border-style: solid;
+  /*border-style: solid;*/
   height: 250px;
+  line-height: 250px;
+  font-size: x-large;
   background-size: cover;
   background-repeat: no-repeat;
 }
