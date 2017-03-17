@@ -65,11 +65,23 @@ section h2 {
 article {
   border-radius: 10px;
   border-style: solid;
+  width: 200px;
+  display: inline-block;
+  height: 200px;
+  /*Required for text-overflow*/
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 article h3 {
   text-align: center;
   border-bottom: solid;
+  margin-bottom: 0;
+  padding-bottom: 18px;
+}
+
+article p {
+  text-overflow: ellipsis;
 }
 
 a[href^="#post"]  {
@@ -79,15 +91,6 @@ a[href^="#post"]  {
   border-radius: 25px;
   padding: 5px 20px 5px 20px;
   color: #000000;
-  /*font: bold 11px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;*/
 }
 
 section:nth-child(3) {
