@@ -14,9 +14,6 @@ header {
   margin: 0;
   padding: 0;
   z-index: 100;
-
-  /*text-decoration: none;*/
-  /*color: white;*/
   background-color: #454851;
 }
 
@@ -25,7 +22,11 @@ header h2 {
   padding-right: 45%;
   margin: 0;
   float: left;
+}
+
+header h2 a {
   text-decoration: none;
+  color: #E6D692;
 }
 
 header ul {
@@ -43,6 +44,8 @@ header li {
 
 header li a {
   padding-left: 50%;
+  text-decoration: none;
+  color: #E6D692;
 }
 
 main {
